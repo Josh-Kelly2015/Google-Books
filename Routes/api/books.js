@@ -8,10 +8,6 @@ router
   .post(bookController.create);
 
 // Matches with "/api/books/:id"
-router
-  .route("/:id")
-  .get(bookController.findById)
-  .put(bookController.update)
-  .delete(bookController.remove);
+router.route("/:id").delete(bookController.remove);
 
 module.exports = router;
