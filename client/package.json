@@ -1,10 +1,9 @@
 {
   "name": "mern",
   "version": "0.1.0",
-  "description": "client package.json for googlebooks",
+  "description": "Mern Demo",
   "private": true,
   "proxy": "http://localhost:3001/",
-  "homepage": "https://github.com/Josh-Kelly2015/googlebooks#readme",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
